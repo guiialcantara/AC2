@@ -1,0 +1,89 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F0F2F5; /* Soft gray background */
+}
+
+.login-container {
+    background-color: #fff; /* White container */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Logo */
+.login-container .logo {
+    margin-bottom: 2rem;
+}
+
+/* Título */
+.login-container h2 {
+    color: #333; /* Dark gray title */
+    margin-bottom: 1rem;
+}
+
+/* Estilo dos rótulos */
+.login-container label {
+    color: #666; /* Gray labels */
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: left;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo dos inputs */
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+/* Estilo do botão */
+.login-container button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #0062cc; /* Darker blue on hover */
+}
+
+/* Link de recuperação de senha */
+.login-container p {
+    margin-top: 1rem;
+}
+
+.login-container a {
+    color: #007bff; /* Blue link */
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
